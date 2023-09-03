@@ -1,0 +1,11 @@
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/bin/Debug/net7.0/WeatherAPP.Application.deps.json
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/bin/Debug/net7.0/WeatherAPP.Application.dll
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/bin/Debug/net7.0/WeatherAPP.Application.pdb
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/obj/Debug/net7.0/WeatherAPP.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/obj/Debug/net7.0/WeatherAPP.Application.AssemblyInfoInputs.cache
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/obj/Debug/net7.0/WeatherAPP.Application.AssemblyInfo.cs
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/obj/Debug/net7.0/WeatherAPP.Application.csproj.CoreCompileInputs.cache
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/obj/Debug/net7.0/WeatherAPP.Application.dll
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/obj/Debug/net7.0/refint/WeatherAPP.Application.dll
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/obj/Debug/net7.0/WeatherAPP.Application.pdb
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/obj/Debug/net7.0/ref/WeatherAPP.Application.dll

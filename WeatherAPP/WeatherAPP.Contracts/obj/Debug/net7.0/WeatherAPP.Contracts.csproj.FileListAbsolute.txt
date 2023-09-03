@@ -1,0 +1,11 @@
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP/WeatherAPP.Contracts/bin/Debug/net7.0/WeatherAPP.Contracts.deps.json
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP/WeatherAPP.Contracts/bin/Debug/net7.0/WeatherAPP.Contracts.dll
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP/WeatherAPP.Contracts/bin/Debug/net7.0/WeatherAPP.Contracts.pdb
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP/WeatherAPP.Contracts/obj/Debug/net7.0/WeatherAPP.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP/WeatherAPP.Contracts/obj/Debug/net7.0/WeatherAPP.Contracts.AssemblyInfoInputs.cache
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP/WeatherAPP.Contracts/obj/Debug/net7.0/WeatherAPP.Contracts.AssemblyInfo.cs
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP/WeatherAPP.Contracts/obj/Debug/net7.0/WeatherAPP.Contracts.csproj.CoreCompileInputs.cache
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP/WeatherAPP.Contracts/obj/Debug/net7.0/WeatherAPP.Contracts.dll
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP/WeatherAPP.Contracts/obj/Debug/net7.0/refint/WeatherAPP.Contracts.dll
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP/WeatherAPP.Contracts/obj/Debug/net7.0/WeatherAPP.Contracts.pdb
+/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP/WeatherAPP.Contracts/obj/Debug/net7.0/ref/WeatherAPP.Contracts.dll
