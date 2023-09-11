@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KLydCfjQBkLDdgEwMlbB/HTdi4q2zUKEmljNbTFUNGvoFw0Rm2/zLC7boEmSdeZrzfuq51JwTYfjDZ1qIyOXtg==",
+  "dgSpecHash": "XE+QhPUG4TsOwJjnaWDfCir605oPGsNcEkZm3Fy0iLhOEo1g6M9aFSbCzwI5f0oaPZ74yacnD1YjF2h9qv5vtA==",
   "success": true,
-  "projectFilePath": "/Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/WeatherAPP.Application.csproj",
+  "projectFilePath": "C:\\Users\\dslez\\Desktop\\WeatherAPP\\WeatherAPP.Application\\WeatherAPP.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

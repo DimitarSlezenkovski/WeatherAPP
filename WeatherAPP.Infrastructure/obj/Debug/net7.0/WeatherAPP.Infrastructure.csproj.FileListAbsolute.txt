@@ -9,3 +9,15 @@
 /Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Infrastructure/obj/Debug/net7.0/refint/WeatherAPP.Infrastructure.dll
 /Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Infrastructure/obj/Debug/net7.0/WeatherAPP.Infrastructure.pdb
 /Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Infrastructure/obj/Debug/net7.0/ref/WeatherAPP.Infrastructure.dll
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Infrastructure\bin\Debug\net7.0\WeatherAPP.Infrastructure.deps.json
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Infrastructure\bin\Debug\net7.0\WeatherAPP.Infrastructure.dll
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Infrastructure\bin\Debug\net7.0\WeatherAPP.Infrastructure.pdb
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Infrastructure\obj\Debug\net7.0\WeatherAPP.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Infrastructure\obj\Debug\net7.0\WeatherAPP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Infrastructure\obj\Debug\net7.0\WeatherAPP.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Infrastructure\obj\Debug\net7.0\WeatherAPP.Infrastructure.AssemblyInfo.cs
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Infrastructure\obj\Debug\net7.0\WeatherAPP.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Infrastructure\obj\Debug\net7.0\WeatherAPP.Infrastructure.dll
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Infrastructure\obj\Debug\net7.0\refint\WeatherAPP.Infrastructure.dll
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Infrastructure\obj\Debug\net7.0\WeatherAPP.Infrastructure.pdb
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Infrastructure\obj\Debug\net7.0\ref\WeatherAPP.Infrastructure.dll
