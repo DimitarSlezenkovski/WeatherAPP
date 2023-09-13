@@ -10,6 +10,7 @@
 /Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/obj/Debug/net7.0/WeatherAPP.Application.pdb
 /Users/dimitarslezenkovski/Projects/WeatherAPP/WeatherAPP.Application/obj/Debug/net7.0/ref/WeatherAPP.Application.dll
 C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\bin\Debug\net7.0\WeatherAPP.Application.deps.json
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\bin\Debug\net7.0\WeatherAPP.Application.runtimeconfig.json
 C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\bin\Debug\net7.0\WeatherAPP.Application.dll
 C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\bin\Debug\net7.0\WeatherAPP.Application.pdb
 C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\obj\Debug\net7.0\WeatherAPP.Application.csproj.AssemblyReference.cache
@@ -20,4 +21,12 @@ C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\obj\Debug\net7.0\Weathe
 C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\obj\Debug\net7.0\WeatherAPP.Application.dll
 C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\obj\Debug\net7.0\refint\WeatherAPP.Application.dll
 C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\obj\Debug\net7.0\WeatherAPP.Application.pdb
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\obj\Debug\net7.0\WeatherAPP.Application.genruntimeconfig.cache
 C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\obj\Debug\net7.0\ref\WeatherAPP.Application.dll
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\bin\Debug\net7.0\WeatherAPP.Data.dll
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\bin\Debug\net7.0\WeatherAPP.Infrastructure.dll
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\bin\Debug\net7.0\WeatherAPP.Repository.dll
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\bin\Debug\net7.0\WeatherAPP.Infrastructure.pdb
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\bin\Debug\net7.0\WeatherAPP.Repository.pdb
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\bin\Debug\net7.0\WeatherAPP.Data.pdb
+C:\Users\dslez\Desktop\WeatherAPP\WeatherAPP.Application\obj\Debug\net7.0\WeatherAPP.Application.csproj.CopyComplete

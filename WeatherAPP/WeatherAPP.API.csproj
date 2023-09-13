@@ -9,11 +9,21 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MySql.Data" Version="8.1.0" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="7.0.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Infrastructure\" />
+    <ProjectReference Include="..\WeatherAPP.Application\WeatherAPP.Application.csproj" />
+    <ProjectReference Include="..\WeatherAPP.Data\WeatherAPP.Data.csproj" />
+    <ProjectReference Include="..\WeatherAPP.Infrastructure\WeatherAPP.Infrastructure.csproj" />
+    <ProjectReference Include="..\WeatherAPP.Repository\WeatherAPP.Repository.csproj" />
   </ItemGroup>
 
 </Project>
