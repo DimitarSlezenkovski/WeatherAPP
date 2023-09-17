@@ -11,7 +11,7 @@ using WeatherAPP.Data;
 namespace WeatherAPP.Data.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20230912233430_InitialMigration")]
+    [Migration("20230914222532_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -30,12 +30,12 @@ namespace WeatherAPP.Data.Migrations
 
                     b.Property<DateTime>("CreatedOn")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2(7)")
-                        .HasDefaultValueSql("getutcdate()");
+                        .HasColumnType("datetime(6)")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP(6)");
 
                     b.Property<DateTime?>("DeletedOn")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2(7)")
+                        .HasColumnType("datetime(6)")
                         .HasDefaultValueSql("NULL");
 
                     b.Property<string>("Email")
@@ -59,7 +59,7 @@ namespace WeatherAPP.Data.Migrations
                     b.HasIndex("Email")
                         .IsUnique();
 
-                    b.ToTable("User", "db");
+                    b.ToTable("Users", "weatherdb");
                 });
 #pragma warning restore 612, 618
         }

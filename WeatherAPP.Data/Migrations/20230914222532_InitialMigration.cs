@@ -12,14 +12,14 @@ namespace WeatherAPP.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.EnsureSchema(
-                name: "db");
+                name: "weatherdb");
 
             migrationBuilder.AlterDatabase()
                 .Annotation("MySQL:Charset", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "User",
-                schema: "db",
+                name: "Users",
+                schema: "weatherdb",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "char(36)", nullable: false),
@@ -32,15 +32,22 @@ namespace WeatherAPP.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_User", x => x.Id);
+                    table.PrimaryKey("PK_Users", x => x.Id);
                 })
                 .Annotation("MySQL:Charset", "utf8mb4");
 
             migrationBuilder.CreateIndex(
-                name: "IX_User_Email",
-                schema: "db",
-                table: "User",
+                name: "IX_Users_Email",
+                schema: "weatherdb",
+                table: "Users",
                 column: "Email",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Users_Id",
+                schema: "weatherdb",
+                table: "Users",
+                column: "Id",
                 unique: true);
         }
 
@@ -48,8 +55,8 @@ namespace WeatherAPP.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "User",
-                schema: "db");
+                name: "Users",
+                schema: "weatherdb");
         }
     }
 }

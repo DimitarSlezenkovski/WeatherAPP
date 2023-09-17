@@ -21,7 +21,7 @@ namespace WeatherAPP.API.Controllers.Authentication
             this.principal = principal;
         }
 
-        #region Login
+        #region Login & Register
         [HttpPost("auth/loginToken")]
         public async Task<IActionResult> LoginToken([FromBody] LoginRequest request)
         {
@@ -34,6 +34,14 @@ namespace WeatherAPP.API.Controllers.Authentication
             }
 
             return ResponseHandler(token);
+        }
+
+        [HttpPost("auth/register")]
+        public async Task<IActionResult> Register([FromBody] RegisterRequest request)
+        {
+            var response = await mediator.Do<RegisterRequest, RegisterResponse>(request);
+
+            return ResponseHandler(response);
         }
 
         [Authorize]

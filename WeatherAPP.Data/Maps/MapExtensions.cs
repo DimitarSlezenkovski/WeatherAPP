@@ -9,19 +9,19 @@ namespace WeatherAPP.Data.Maps
         public static EntityTypeBuilder<T> MapEntity<T>(this EntityTypeBuilder<T> builder) where T : class, IEntity
         {
             builder
-                .ToTable(typeof(T).Name, "db");
+                .ToTable(typeof(T).Name + "s", "weatherdb");
 
             builder.HasKey(x => x.Id);
 
             builder
                 .Property(x => x.CreatedOn)
-                .HasColumnType("datetime2(7)")
-                .HasDefaultValueSql("getutcdate()")
+                .HasColumnType("datetime(6)")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP(6)")
                 .IsRequired(true);
 
             builder
                 .Property(x => x.DeletedOn)
-                .HasColumnType("datetime2(7)")
+                .HasColumnType("datetime(6)")
                 .HasDefaultValueSql("NULL")
                 .IsRequired(false);
 

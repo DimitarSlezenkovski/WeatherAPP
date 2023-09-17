@@ -1,4 +1,5 @@
 ﻿using WeatherAPP.API.Infrastructure.Configurations;
+using WeatherAPP.API.Infrastructure.Configurations.OpenWeatherConfiguration;
 
 namespace WeatherAPP.API;
 public class Program
@@ -23,6 +24,7 @@ public class Program
             .AddPrincipal(builder.Configuration, builder.Environment)
             .AddInputValidators(builder.Configuration, builder.Environment)
             .AddRepositories(builder.Configuration, builder.Environment)
+            .AddOpenWeatherService(builder.Configuration)
             .AddServices(builder.Configuration, builder.Environment)
             .AddCustomMvc()
             .AddAuth(builder.Configuration);

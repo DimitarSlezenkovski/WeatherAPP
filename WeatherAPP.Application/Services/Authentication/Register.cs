@@ -46,12 +46,28 @@ namespace WeatherAPP.Application.Services.Authentication
 
         public class InputValidator : InputValidator<RegisterRequest>
         {
-            public InputValidator()
+            private readonly IUserRepository userRepository;
+            public InputValidator(IUserRepository userRepository)
             {
                 RuleFor(x => x.Email).NotEmpty().EmailAddress();
+                RuleFor(x => x.Email).Must(email => CheckIfUserExists(email));
                 RuleFor(x => x.FirstName).NotEmpty();
                 RuleFor(x => x.LastName).NotEmpty();
                 RuleFor(x => x.Password).NotEmpty().MinimumLength(8);
+                this.userRepository = userRepository;
+            }
+            private async Task<bool> CheckIfUserExistsAsync(string email)
+            {
+                var isExisting = await userRepository.CheckIfUserExists(email);
+                
+                if (!isExisting) return true;
+                
+                return false;
+            }
+
+            private bool CheckIfUserExists(string email)
+            {
+                return Task.Run(() => CheckIfUserExistsAsync(email)).Result;
             }
         }
 
